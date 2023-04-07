@@ -45,6 +45,8 @@ type PaymentPassType = {
 
 const { PaymentPass: PaymentPassModule } = NativeModules;
 
+console.log('PaymentPassModule', PaymentPassModule);
+
 function noop(): void {}
 
 const addPaymentPass: AddPaymentPass = (
